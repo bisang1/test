@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마음솔루션 | 당신의 마음 건강을 위한 첫걸음</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar">
+        <div class="logo">마음솔루션</div>
+        <div class="nav-links">
+            <a href="#home">홈</a>
+            <a href="#about">소개</a>
+            <a href="#tests">진단테스트</a>
+            <a href="#contact">상담문의</a>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>당신의 마음 건강을 위한<br>첫걸음을 함께하세요</h1>
+            <p>전문가와 함께하는 맞춤형 심리 진단 서비스</p>
+            <button class="cta-button">무료 진단 시작하기</button>
+        </div>
+    </header>
+
+    <!-- 진단 서비스 섹션 -->
+    <section class="features">
+        <h2>마음 건강 진단 서비스</h2>
+        <div class="feature-grid">
+            <!-- 카드 1: 우울증 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>우울증 진단과 관리</h3>
+                <p>일상의 작은 변화부터 시작되는 우울증 체크와 관리 방법을 제안합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+
+            <!-- 카드 2: 불안장애 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>불안장애 평가</h3>
+                <p>다양한 불안증상을 체크하고 맞춤형 관리 방법을 제시합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+
+            <!-- 카드 3: 수면건강 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <h3>수면건강 분석</h3>
+                <p>수면의 질을 평가하고 개선 방법을 제안합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+
+            <!-- 카드 4: 직무 스트레스 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>직무 스트레스 진단</h3>
+                <p>직장에서의 스트레스 수준을 체크하고 관리 방안을 제시합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+
+            <!-- 카드 5: 대인관계 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>대인관계 능력 진단</h3>
+                <p>관계에서의 어려움을 파악하고 개선 방법을 제안합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+
+            <!-- 카드 6: 자존감 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>자존감 & 자기효능감 측정</h3>
+                <p>자신에 대한 인식을 평가하고 향상 방법을 제시합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+
+            <!-- 카드 7: 트라우마 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>트라우마 & PTSD 스크리닝</h3>
+                <p>과거 경험의 영향을 평가하고 치유 방법을 제안합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+
+            <!-- 카드 8: 중독 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <h3>중독 성향 진단</h3>
+                <p>다양한 중독 위험성을 평가하고 관리 방안을 제시합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+
+            <!-- 카드 9: 감정조절 -->
+            <div class="feature-card">
+                <div class="card-icon">
+                    <i class="fas fa-balance-scale"></i>
+                </div>
+                <h3>감정조절 능력 진단</h3>
+                <p>감정 조절 능력을 평가하고 개선 방법을 제안합니다.</p>
+                <button class="test-button">진단하기</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 진단 프로세스 섹션 -->
+    <section class="process">
+        <h2>진단 프로세스</h2>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>간단한 설문</h3>
+                <p>5분 내외의 설문으로 현재 상태를 체크합니다</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>결과 분석</h3>
+                <p>전문가 기준으로 결과를 분석합니다</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>맞춤 제안</h3>
+                <p>개인별 맞춤 해결방안을 제시합니다</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">마음솔루션</div>
+            <div class="footer-links">
+                <a href="#privacy">개인정보처리방침</a>
+                <a href="#terms">이용약관</a>
+                <a href="#contact">문의하기</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
